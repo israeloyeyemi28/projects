@@ -1,0 +1,10 @@
+# This is a meal price calculator
+childs_price = float(input('What is the price of the childrens  meal ? : $')) 
+adults_price = float(input('What is the price of the adults meal ? : $'))
+number_of_children = float(input('How many children were present ? : '))
+number_of_adults = float(input('How many adults were present ? : '))
+sales_tax = float(input('What is the sales tax ? : $'))
+# meal_subtotal=(childs_price*number of children) + (price of adults*number of adults)
+print()
+meals_subtotal = (childs_price * number_of_children) + (adults_price * number_of_adults)
+print(f'The meals subtotal is : $ {meals_subtotal}')

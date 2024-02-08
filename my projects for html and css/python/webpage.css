@@ -1,0 +1,67 @@
+.header{
+    background-color: peru;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px lightblue;
+    
+}
+.header :hover{
+    background-color: peachpuff;
+    border-style: ridge;
+}
+
+.home{
+    color: white;
+    background-color: black;
+}
+.div1{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: violet;
+    transform:rotate(0deg);
+    transition: width 3s;
+    text-align: center;
+    height: 20px;
+    font-weight: 20px;
+    font-style: italic;
+    font-size: 20px;
+    border-style: groove;
+    border-color: lightskyblue;
+    transition-timing-function: ease-in;
+    text-shadow: 1px 2px 2px blue;
+}
+.div1:hover{
+    width: 750px;
+}
+.div2{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: rgb(8, 172, 104);
+    transform:rotate(0deg);
+    transition: width 3s;
+    text-align: center;
+    height: 20px;
+    font-weight: 20px;
+    font-style: italic;
+    font-size: 20px;
+    border-style: ridge;
+    border-color: lightskyblue;
+    transition-timing-function: ease-out;
+}
+.div2:hover{
+    width: 500px;
+}
+.submit{
+    border-radius: 5px;
+    border-color: gold;
+    border-style: solid;
+    border-width: 3px;
+    transform-box: stroke-box;
+}
+
+.firstname{
+    color: black;
+}

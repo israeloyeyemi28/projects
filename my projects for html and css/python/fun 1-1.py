@@ -1,0 +1,1 @@
+with open('IMG202111031113018.jpg')as photos

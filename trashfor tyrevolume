@@ -1,0 +1,3 @@
+ # Append the line containing the values to the file
+    #line = (f"{current_date:%Y-%m-%d}\t{width}\t{aspect_ratio}\t{diameter}\t{volume}\t{number}\n")
+    #file.write(line)

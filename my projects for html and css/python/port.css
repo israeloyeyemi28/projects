@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(images/BingWallpaper.jpg);
+    color: black;
+    font-weight: bolder;
+}
+#name{
+    color: #ab0f41;
+}
+
+#im{
+    height: 300px;
+    width: 300px;
+
+    
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: none;
+    font-weight: bolder;
+    background-color: #ab0f41;
+    border-radius: 10px;
+}
+
+about{
+    margin-left: 20px;
+}
+
+button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+
+ul,li{
+    list-style: none;
+}
+.icon{
+    display: flex;
+    margin-left: 20px;
+}
+.name{
+    background-color: green;
+}
+
+.div1{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: blueviolet;
+    transform:rotate(0deg);
+    transition: width 3s;
+    text-align: center;
+    height: 20px;
+    font-weight: 20px;
+    font-style: italic;
+    font-size: 20px;
+    border-style: double;
+    border-color: lightskyblue;
+    transition-timing-function: ease-in;
+    text-shadow: 1px 2px 2px blue;
+}
+.div1:hover{
+    width: 750px;
+}
+
+.pics{
+    border-radius: 30px;
+    height: 100px;
+    border-style: dotted;
+    width: 100px;
+    
+}
+.pics:hover{
+    width: 110px;
+}
