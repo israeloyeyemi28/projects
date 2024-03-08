@@ -1,0 +1,148 @@
+body {
+  background-color: #313030;
+  padding: 20px;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212121;
+  margin: 30px;
+  border: 1px solid #dadd08;
+  border-radius: 20px;
+}
+
+nav a {
+  text-align: center;
+  color: #e9e9e9;
+  text-decoration: none;
+  padding: 35px;
+  margin: 10px;
+  border-radius: 20px;
+}
+nav a:hover {
+  box-shadow: 2px 2px 2px #fbff01;
+  background-color: #363636;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.avatar {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+/* .avatar:hover {
+  filter: drop-shadow(2px 2px 2px #fdd4b6);
+} */
+
+.name {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.me {
+  background-color: #212121;
+  color: rgb(218, 186, 10);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+a {
+  color: #d9ff00;
+}
+a:hover {
+  color: white;
+}
+
+h1 {
+  color: rgb(218, 186, 10);
+  text-decoration: underline;
+}
+
+/*ABout PArt of the code*/
+.about {
+  background-color: #263238;
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 30px;
+  word-spacing: normal;
+}
+
+.dev-img {
+  width: 80px;
+}
+
+.developer {
+  margin: 10px;
+  padding: 10px;
+  background-color: #607e8b;
+  border-radius: 20px;
+  text-align: start;
+  border: 1px solid #dadd08;
+}
+
+button {
+  float: right;
+  border: none;
+  color: rgb(218, 186, 10);
+  background-color: #245a64;
+  border-radius: 20px;
+  padding: 30px;
+}
+button:hover {
+  filter: drop-shadow(2px 2px 2px #00b3ff);
+  color: white;
+  text-decoration: underline;
+}
+
+li {
+  color: #fff;
+  padding: 20px;
+}
+
+.year {
+  color: #dadd08;
+}
+
+summary {
+  background-color: #363636;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  font-style: oblique;
+}
+
+summary:hover {
+  background-color: #181717;
+  border-radius: 15px;
+  transition: ease 0.9s;
+}
+.certificates {
+  width: 500px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  nav,
+  footer {
+    flex-direction: column;
+  }
+  nav a {
+    display: block;
+    padding: 15px;
+  }
+}
